@@ -20,4 +20,4 @@ jobs:
           pip install pytest
           
       - name: Testeo scripts.
-        run: ./tests/pytest -v
+        run: tests/pytest -v
