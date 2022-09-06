@@ -2,4 +2,5 @@ from buscar_maximo import get_maximo
 import pytest
 
 def test():
-	assert get_maximo(["3","4","10","300"]) == 300
+	valores = [3,2,1,4,5,10,300]
+	assert get_maximo(valores) == 300
