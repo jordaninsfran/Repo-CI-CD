@@ -1,4 +1,4 @@
-from programa1 import sumar
+from scripts/programa1 import sumar
 import pytest
 
 def test1():
