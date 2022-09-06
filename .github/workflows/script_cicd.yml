@@ -19,4 +19,6 @@ jobs:
           pip install pytest
           
       - name: Testeo scripts.
-        run: pytest -v
+        run: |
+          echo "PYTHONPATH=scripts" >> $GITHUB_ENV
+          pytest -v
