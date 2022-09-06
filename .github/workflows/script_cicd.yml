@@ -15,7 +15,7 @@ jobs:
       - name: Setear directorio de trabajo.
         run: |
           composer install --no-scripts
-        working-directory: ./scripts
+        working-directory: ./tests
       - name: Instalar dependencias.
         run: |
           python -m pip install --upgrade pip
