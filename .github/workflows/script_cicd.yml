@@ -13,6 +13,8 @@ jobs:
         with:
           python-version: 3.10.4
       - name: Setear directorio de trabajo.
+        run: |
+          composer install --no-scripts
         working-directory: ./scripts
       - name: Instalar dependencias.
         run: |
